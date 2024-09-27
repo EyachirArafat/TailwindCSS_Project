@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  .mobile-navbar{
+    @apply hover:text-[#F44335] hover:font-semibold text-nowrap dark:text-gray-200
+  }
+  .main-navbar{
+    @apply hover:text-[#F44335] hover:scale-110 transition-transform text-nowrap
+  }
+  .register-btn{
+    @apply text-nowrap px-2 md:px-3 py-2  rounded-lg bg-[#F44335] text-white md:text-lg font-medium transition-transform hover:scale-105
+  }
+  .skill-tag{
+    @apply border border-[#F44335] py-1 px-2 rounded-full transition-transform hover:scale-105 cursor-pointer hover:bg-[#F44335] hover:bg-opacity-85 hover:text-white hover:font-semibold text-nowrap
+  }
+  .card-body{
+    @apply space-y-4 flex flex-col  bg-white shadow-md p-4 rounded-xl transition-transform hover:scale-105 h-full dark:bg-gray-800
+  }
+  .card-header{
+    @apply text-xl w-full font-bold border-b-2 border-[#F44335] border-opacity-15 pb-2
+  }
+  .card-element-header{
+    @apply flex gap-4 items-center justify-center
+  }
+  .card-element{
+    @apply bg-[#F44335] bg-opacity-15 p-3 rounded-full text-[#F44335] hover:bg-[#F44335] hover:text-white
+  }
+  .card-element-header-2{
+    @apply flex gap-4 items-center
+  }
+  
+  .course-tag{
+    @apply border border-[#00FF84] py-1 px-2 rounded-full transition-transform hover:scale-105 cursor-pointer hover:bg-[#00FF84] hover:bg-opacity-85 hover:text-white hover:font-semibold dark:text-gray-200
+  }
+
+}
+
+html::-webkit-scrollbar {
+  width: 12px;
+}
+html::-webkit-scrollbar-track {
+  background: #ecd1d1;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #F44335; 
+  border-radius: 10px; 
+  border: 2px solid #f1f1f1;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #ff1100;
+}

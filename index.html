@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark" id="modeSelect">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="tailwind.css">
+    <title>Welcome | Time to Explore - CREATIVES for YOU</title>
+  </head>
+  <style>
+    
+  </style>
+  <body class="bg-[#FAFAFA] dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-500 ">
+    <!-- Navbar section -->
+
+     <nav class="container-fluid fixed w-full left-0 z-50 top-0 px-6 mx-auto h-20 p-4 flex items-center justify-between shadow-md bg-white dark:bg-gray-800 dark:shadow-gray-700">
+
+      <div><a href="index.html"><img class="w-2/3 dark:bg-gray-100 dark:rounded-full" src="assets/c4u full logo.png" alt="logo.png"></a></div>
+      <div>
+        <ul class="gap-4 hidden md:flex text-lg font-semibold mx-auto">
+          <li class="text-[#F44335] main-navbar"><a href="#">Home</a></li>
+          <li class="main-navbar"><a href="#">About Us</a></li>
+          <li class="main-navbar"><a href="#">Upskill</a></li>
+          <li class="main-navbar"><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="flex items-center gap-4">
+        <button class="register-btn hidden md:block">Register Interest</button>
+        <i class="fa-solid fa-moon border p-3 rounded-full hover:bg-[#00FF84] hover:text-white transition-transform hover:scale-105" id="darkModeToggle"></i>
+        <i class="fa-solid fa-bars text-lg md:hidden" onclick="document.querySelector('.mobile-menu').classList.toggle('hidden')"></i>
+      </div>
+      <ul class="mobile-menu absolute top-16 right-4 bg-white dark:bg-gray-800 shadow-md p-5 w-1/3 rounded-md flex-col gap-3 space-y-2 hidden ">
+        <li class="mobile-navbar"><a href="#">Home</a></li>
+        <li class="mobile-navbar"><a href="#">About Us</a></li>
+        <li class="mobile-navbar"><a href="#">Upskill</a></li>
+        <li class="mobile-navbar"><a href="#">Contact Us</a></li>
+        <li><span class="course-tag"><a href="#course-1">Course 1</a></span></li>
+        <li><span class="course-tag"><a href="#course-2">Course 2</a></span></li>
+        <li><span class="course-tag"><a href="#course-3">Course 3</a></span></li>
+        <li><span class="course-tag"><a href="#course-4">Course 4</a></span></li>
+        <li><span class="course-tag"><a href="#course-5">Course 5</a></span></li>
+        <li class="register-btn text-center"><a href="#">Register Interest</a></li>
+
+      </ul>
+    </nav> 
+
+
+    <!-- Profile section -->
+
+    <section class="container-fluid md:my-12 pt-20 my-5 mx-auto md:px-8 px-14 grid grid-cols-12 gap-4">
+      <div class="md:col-span-6 col-span-12 space-y-6">
+        <div>
+          <p class="font-bold mb-4">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage</p>
+
+          <p class="text-5xl font-semibold">
+            Google <br>
+            <span class="text-[#F44335] border-b-4 border-b-[#F44335] inline-block mt-3">IT Support</span><br>
+            <span class="inline-block mt-3">Certificate</span>
+          </p>      
+        </div>
+        <p class="w-2/3 text-sm my-6">This is your path to a career in IT. In this program, you’ll learn in-demand skills with no degree or experience required. </p>
+        <div class="flex gap-4">
+          <div class="text-center font-semibold">
+            <h3 class="font-bold text-[#00FF84]">438</h3>
+            <p>Videos</p>
+          </div>
+          <div class="text-center font-semibold">
+            <h3 class="font-bold text-[#00FF84]">151</h3>
+            <p>Readings</p>
+          </div>
+          <div class="text-center font-semibold">
+            <h3 class="font-bold text-[#00FF84]">108</h3>
+            <p>Quizzes</p>
+          </div>
+          <div class="text-center font-semibold">
+            <h3 class="font-bold text-[#00FF84]">24</h3>
+            <p>Exercises</p>
+          </div>
+          <div class="text-center font-semibold">
+            <h3 class="font-bold text-[#00FF84]">4</h3>
+            <p>Assigments</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <button class="register-btn">Signup</button>
+          <button class="border p-3 rounded-lg transition-transform hover:scale-105 bg-[#FFFFFF] dark:bg-gray-800 font-bold ">Learn more</button>
+        </div>
+      </div>
+      <div class="md:col-span-6 col-span-12 ml-6">
+        <img cl src="assets/profile image.png" alt="profile image.png">
+      </div>
+    </section>
+
+    <!-- gain goal section -->
+
+    <section class="bg-white dark:bg-gray-800 container-fluid grid grid-cols-12 gap-4 items-center justify-center px-8 py-4 my-8">
+      <div class="md:col-span-3 col-span-6 text-xs flex items-center justify-center">
+        <div class="text-xs flex justify-center flex-col dark:text-gray-200">
+          <p class="text-nowrap">Pave your path to career success by</p>
+          <p class="text-nowrap">gaining  a  professional  Google</p>
+          <p class="text-nowrap">certificate with the support of C4U</p>
+        </div>
+      </div>
+
+      <div class="h-12 border-l border-gray-300 hidden md:inline-block"></div>
+
+      <div class="md:col-span-2 col-span-6 flex items-center justify-center"><img class="w-24" src="assets/Google.png" alt="Google.png"></div>
+
+      <div class="h-12 border-l border-gray-300 hidden md:inline-block"></div>
+
+      <div class="md:col-span-2 col-span-6 flex items-center justify-center"><img class="w-24 dark:bg-gray-200 dark:rounded-full" src="assets/Work & Pensions.png" alt="work & pensions.png"></div>
+
+      <div class="h-12 border-l border-gray-300 hidden md:inline-block"></div>
+
+      <div class="md:col-span-2 col-span-6 flex items-center justify-center"><img class="w-24 dark:bg-gray-200 dark:rounded-full" src="assets/c4u full logo.png" alt="logo.png"></div>
+    </section>
+
+    <!-- what you will learn section -->
+
+    <section class="container-fluid mx-auto my-10 px-4 grid grid-cols-12 gap-4 dark:text-gray-100">
+      <div class="md:col-span-6 col-span-12">
+        <div class="pl-4 space-y-4 m-auto h-full">
+          <div class="card-body items-start">
+            <p class="card-header">What you will learn</p>
+            <div class="card-element-header">
+              <i class="fa-solid fa-check card-element"></i>
+              <p>Gain skills required to succeed in an entry-level IT job</p>
+            </div>
+            <div class="card-element-header">
+              <i class="fa-solid fa-check card-element"></i>
+              <p> Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
+            </div>
+            <div class="card-element-header">
+              <i class="fa-solid fa-check card-element"></i>
+              <p>Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
+            </div>
+            <div class="card-element-header">
+              <i class="fa-solid fa-check card-element"></i>
+              <p>Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="md:col-span-6 col-span-12 ">
+        <div class="pr-4 space-y-4">
+          <div class="card-body">
+            <img src="assets/IT_social.png" alt="IT social.png">
+            <p class="card-header">Skills you will gain</p>
+            <div class="flex flex-wrap items-center gap-3">
+              <span class="skill-tag">Debugging</span>
+              <span class="skill-tag">Customer Service</span>
+              <span class="skill-tag">Ipv4</span>
+              <span class="skill-tag">Network Model</span>
+              <span class="skill-tag">Customer Support</span>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">Domain Name System (DNS)</span>
+              <span class="skill-tag">Binary Code</span>
+              <span class="skill-tag">Network Protocols</span>
+              <span class="skill-tag">Troubleshooting</span>
+              <span class="skill-tag">Encryption Algorithms and Techniques</span>
+              <span class="skill-tag">Cloud Computing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jobs Associated with Certificate section -->
+
+    <section class="grid grid-cols-12 gap-4 container-fluid px-8 my-20">
+      <div class="md:col-span-6 col-span-12">
+        <div class="card-body">
+          <p class="card-header">Jobs Assocaited with Certificate </p>
+          <div>
+            <div class="grid grid-cols-12 gap-3">
+              <div class="col-span-6 space-y-2">
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-arrow-right card-element"></i>
+                  <p>Database administrator</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-arrow-right card-element"></i>
+                  <p>Tech support specialist</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-arrow-right card-element"></i>
+                  <p>IT specialist</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-arrow-right card-element"></i>
+                  <p>Systems analyst</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-arrow-right card-element"></i>
+                  <p>Network engineer</p>
+                </div>
+              </div>
+
+              <div class="col-span-6 space-y-2 m-auto">
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-arrow-right card-element"></i>
+                  <p>Help desk technician</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-arrow-right card-element"></i>
+                  <p>IT support spcialist</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-arrow-right card-element"></i>
+                  <p>IT technician</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-arrow-right card-element"></i>
+                  <p>Computer user specialist</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-arrow-right card-element"></i>
+                  <p>IT assitant</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="md:col-span-6 col-span-12">
+        <div class="m-auto space-y-4 flex flex-col items-start bg-white shadow-md rounded-xl transition-transform hover:scale-105 h-full">
+          <img class="w-full h-full object-cover rounded-xl" src="assets/IT Support.png" alt="IT Support.png">
+        </div>
+      </div>
+    </section>
+
+    
+    
+
+    
+
+    <!-- Course section -->
+
+    <section class="bg-white dark:bg-gray-800 container-fluid px-8 mb-10 dark:text-gray-200">
+      <div class="flex flex-col gap-8 py-5 relative">
+        <img class="absolute w-40 right-4" src="assets/Group 238902.png" alt="">
+        <p class="text-3xl font-semibold">There are 5 Courses in this<br>Professional Certificate</p>
+        <div class="flex gap-6"> 
+          <span class="course-tag"><a href="#course-1">Course 1</a></span>
+          <span class="course-tag"><a href="#course-2">Course 2</a></span>
+          <span class="course-tag"><a href="#course-3">Course 3</a></span>
+          <span class="course-tag"><a href="#course-4">Course 4</a></span>
+          <span class="course-tag"><a href="#course-5">Course 5</a></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course 1 section -->
+
+    <section class="container-fluid px-8" id="course-1">
+      <div class="grid grid-cols-12 shadow-xl md:rounded-s-2xl md:rounded-e-none rounded-2xl gap-4 md:gap-0">
+        <div class="md:col-span-4 col-span-12 bg-[#2D3142] my-auto w-full h-full flex flex-col md:rounded-s-2xl md:rounded-e-none rounded-2xl">
+          <div class="p-3 space-y-4 flex-grow">
+            <p class="text-[#00FF84] font-semibold">Course 1</p>
+            <p class="text-4xl font-semibold text-white">Technical Support Fundamentals</p>
+            <div class="flex items-center justify-between">
+              <p class="text-[#00FF84] font-thin text-nowrap">132,411 ratings</p>
+              <div class="flex flex-nowrap items-center"><img src="assets/Stars.png" alt=""><span class="text-[#FFCB45]">4.8</span></div>
+            </div>
+            <div class="flex items-center justify-between gap-4">
+              <button class="register-btn">Signup</button>
+              <a href="#course-2"><button class="border p-2 px-4 rounded-lg transition-transform hover:scale-105 bg-[#FFFFFF] dark:bg-gray-800 font-bold">Next</button></a>
+            </div>
+          </div>
+          
+          <div class="text-white px-3 text-xs pb-4">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career.</div>
+        </div>
+        <div class="md:col-span-8 col-span-12 bg-white dark:bg-gray-800 p-4 pr-10 md:rounded-e-2xl md:rounded-s-none rounded-2xl">
+          <div class="space-y-4">
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">About this course</p>
+              <p>This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">What you will learn</p>
+              <div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Understand how the binary system works</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Learn how applications are created and how they work under the hood of a computer</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Assemble a computer from scratch</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Choose and install an operating system on a computer</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">Skills you will gain </p>
+              <div class="flex flex-wrap gap-5">
+                <span class="skill-tag">Binary Code</span>
+                <span class="skill-tag">Troubleshooting</span>
+                <span class="skill-tag">Customer Support</span>
+                <span class="skill-tag">Linux</span>
+              </div>
+            </div>
+            
+            <div class="space-y-3"></div>
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">Information</p>
+              <div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Flexible deadlines</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Shareable Certificate</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>100% online</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Beginner Level</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Approx. 20 hours to complete</p>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <div class="text-center px-20 z-10 md:block hidden">
+      <img class="h-auto w-" src="assets/Connector Vector 1.png" alt="">
+    </div>
+
+     <!-- Course 2 section -->
+
+     <section class="container-fluid px-8 md:my-0 my-10" id="course-2">
+      <div class="grid grid-cols-12 shadow-xl md:rounded-s-2xl md:rounded-e-none rounded-2xl gap-4 md:gap-0">
+        <div class="md:col-span-4 col-span-12 bg-[#2D3142] my-auto w-full h-full flex flex-col md:rounded-s-2xl md:rounded-e-none rounded-2xl">
+          <div class="p-3 space-y-4 flex-grow">
+            <p class="text-[#00FF84] font-semibold">Course 2</p>
+            <p class="text-4xl font-semibold text-white">The Bits and Bytes of Computer Networking</p>
+            <div class="flex items-center justify-between">
+              <p class="text-[#00FF84] font-thin text-nowrap">37,998 ratings</p>
+              <div class="flex flex-nowrap items-center"><img src="assets/Stars.png" alt=""><span class="text-[#FFCB45]">4.7</span></div>
+            </div>
+            <div class="flex items-center justify-between gap-4">
+              <button class="register-btn">Signup</button>
+              <a href="#course-3"><button class="border p-2 px-4 rounded-lg transition-transform hover:scale-105 dark:bg-gray-800 bg-[#FFFFFF] font-bold">Next</button></a>
+            </div>
+          </div>
+          
+          <div class="text-white px-3 text-xs pb-4">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career.</div>
+        </div>
+        <div class="md:col-span-8 col-span-12 dark:bg-gray-800 bg-white p-4 pr-10 md:rounded-e-2xl md:rounded-s-none rounded-2xl">
+          <div class="space-y-4">
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">About this course</p>
+              <p>This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting.</p>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">What you will learn</p>
+              <div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Describe computer networks in terms of a five-layer mode</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Understand all of the standard protocols involved with TCP/IP communications</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Grasp powerful network troubleshooting tools and techniques</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>learn network services like DNS and DHCP that help make computer networks run</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Understand cloud computing, everything as a service, and cloud storage</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">Skills you will gain</p>
+              <div class="flex gap-5 flex-wrap">
+                <span class="skill-tag">Domain Name System (DNS)</span>
+                <span class="skill-tag">Ipv4</span>
+                <span class="skill-tag">Network Model</span>
+                <span class="skill-tag">Troubleshooting</span>
+              </div>
+            </div>
+            
+            <div class="space-y-3"></div>
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">Information</p>
+              <div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Flexible deadlines</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Shareable Certificate</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>100% online</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Beginner Level</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Approx. 25 hours to complete</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     
+     
+     <div class="text-center px-20 z-10 md:block hidden">
+      <img class="h-auto w-" src="assets/Connector Vector 2.png" alt="">
+     </div>
+
+     <!-- Course 3 section -->
+
+     <section class="container-fluid px-8 md:my-0 my-10" id="course-3">
+      <div class="grid grid-cols-12 shadow-xl md:rounded-2xl rounded-none gap-4 md:gap-0">
+        <div class="md:col-span-4 col-span-12 bg-[#2D3142] my-auto w-full h-full flex flex-col md:rounded-s-2xl md:rounded-e-none rounded-2xl">
+          <div class="p-3 space-y-4 flex-grow">
+            <p class="text-[#00FF84] font-semibold">Course 3</p>
+            <p class="text-4xl font-semibold text-white">Operating Systems and You: Becoming a Power User</p>
+            <div class="flex items-center justify-between">
+              <p class="text-[#00FF84] font-thin text-nowrap">22,045 ratings</p>
+              <div class="flex flex-nowrap items-center"><img src="assets/Stars.png" alt=""><span class="text-[#FFCB45]">4.7</span></div>
+            </div>
+            <div class="flex items-center justify-between gap-4">
+              <button class="register-btn">Signup</button>
+              <a href="#course-4"><button class="border p-2 px-4 rounded-lg transition-transform hover:scale-105 bg-[#FFFFFF] dark:bg-gray-800 font-bold">Next</button></a>
+            </div>
+          </div>
+          
+          <div class="text-white px-3 text-xs pb-4">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career.</div>
+        </div>
+        <div class="md:col-span-8 col-span-12 bg-white dark:bg-gray-800 p-4 pr-10 md:rounded-e-2xl md:rounded-s-none rounded-2xl">
+          <div class="space-y-4">
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">About this course</p>
+              <p>In this course -- through a combination of video lectures, demonstrations, and hands-on practice -- you’ll learn about the main components of an operating system and how to perform critical tasks like managing software and users, and configuring hardware.</p>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">What you will learn</p>
+              <div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Navigate the Windows and Linux filesystems using a graphical user interface and command line interpreter</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Set up users, groups, and permissions for account access</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Install, configure, and remove software on the Windows and Linux operating systems</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Configure disk partitions and filesystems</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Understand how system processes work and how to manage them</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>work with system logs and remote connection tools</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>work with system logs and remote connection tools</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">What you will learn</p>
+              <div class="flex gap-5 flex-wrap">
+                <span class="skill-tag">Powershell</span>
+                <span class="skill-tag">Linux File Systems</span>
+                <span class="skill-tag">Command-Line Interface</span>
+                <span class="skill-tag">Linux</span>
+              </div>
+            </div>
+            
+            <div class="space-y-3"></div>
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">What you will learn</p>
+              <div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Flexible deadlines</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Shareable Certificate</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>100% online</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Beginner Level</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Approx. 31 hours to complete</p>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+     </section>
+     
+     
+     <div class="text-center px-20 z-10 md:block hidden">
+      <img class="h-auto w-" src="assets/Connector Vector 3.png" alt="">
+     </div>
+
+     <!-- Course 4 section -->
+
+     <section class="container-fluid px-8 md:my-0 my-10" id="course-4">
+      <div class="grid grid-cols-12 shadow-xl md:rounded-s-2xl md:rounded-e-none rounded-2xl gap-4 md:gap-0">
+        <div class="md:col-span-4 col-span-12 bg-[#2D3142] my-auto w-full h-full flex flex-col md:rounded-s-2xl md:rounded-e-none rounded-2xl">
+          <div class="p-3 space-y-4 flex-grow">
+            <p class="text-[#00FF84] font-semibold">Course 4</p>
+            <p class="text-4xl font-semibold text-white">System Administration and IT Infrastructure Services</p>
+            <div class="flex items-center justify-between">
+              <p class="text-[#00FF84] font-thin text-nowrap">19,062 ratings</p>
+              <div class="flex flex-nowrap items-center"><img src="assets/Stars.png" alt=""><span class="text-[#FFCB45]">4.7</span></div>
+            </div>
+            <div class="flex items-center justify-between gap-4">
+              <button class="register-btn">Signup</button>
+              <a href="#course-5"><button class="border p-2 px-4 rounded-lg transition-transform hover:scale-105 dark:bg-gray-800 bg-[#FFFFFF] font-bold">Next</button></a>
+            </div>
+          </div>
+          
+          <div class="text-white px-3 text-xs pb-4">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career.</div>
+        </div>
+        <div class="md:col-span-8 col-span-12 bg-white dark:bg-gray-800 p-4 pr-10 md:rounded-e-2xl md:rounded-s-none rounded-2xl">
+          <div class="space-y-4">
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">About this course</p>
+              <p>This course will transition you from working on a single computer to an entire fleet. Systems administration is the field of IT that’s responsible for maintaining reliable computers systems in a multi-user environment. In this course, you’ll learn about the infrastructure services that keep all organizations, big and small, up and running. We’ll deep dive on cloud so that you’ll understand everything from typical cloud infrastructure setups to how to manage cloud resources. You'll also learn how to manage and configure servers and how to use industry tools to manage computers, user information, and user productivity. Finally, you’ll learn how to recover your organization’s IT infrastructure in the event of a disaster.</p>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">What you will learn</p>
+              <div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Utilize best practices for choosing hardware, vendors, and services for your organization</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Understand how the most common infrastructure services that keep an organization running work, and how to manage infrastructure servers</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Understand how to make the most of the cloud for your organization</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Manage an organization’s computers and users using the directory services , Active Directory, and OpenLDAP</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Choose and install an operating system on a computer</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Backup your organization’s data and know how to recover your IT infrastructure in  the case of  a disaster</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Utilize systems administration knowledge to plan and improve processes for IT environments</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">Skills you will gain</p>
+              <div class="flex gap-5 flex-wrap">
+                <span class="skill-tag">Directory Service</span>
+                <span class="skill-tag">Lightweight Directory Access Protocol (LDAP)</span>
+                <span class="skill-tag">Backup</span>
+              </div>
+            </div>
+            
+            <div class="space-y-3"></div>
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">Information</p>
+              <div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Flexible deadlines</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Shareable Certificate</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>100% online</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Beginner Level</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Approx. 24 hours to complete</p>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+     </section>
+     
+     
+     <div class="text-center px-20 z-10 md:block hidden">
+      <img class="h-auto w-" src="assets/Connector Vector 1.png" alt="">
+     </div>
+
+     <!-- Course 5 section -->
+
+    <section class="container-fluid px-8 md:my-0 my-10" id="course-5">
+      <div class="grid grid-cols-12 shadow-xl md:rounded-s-2xl md:rounded-e-none rounded-2xl gap-4 md:gap-0">
+        <div class="md:col-span-4 col-span-12 bg-[#2D3142] my-auto w-full h-full flex flex-col md:rounded-s-2xl md:rounded-e-none rounded-2xl">
+          <div class="p-3 space-y-4 flex-grow">
+            <p class="text-[#00FF84] font-semibold">Course 5</p>
+            <p class="text-4xl font-semibold text-white">IT Security: Defense against the digital dark arts</p>
+            <div class="flex items-center justify-between">
+              <p class="text-[#00FF84] font-thin text-nowrap">19,062 ratings</p>
+              <div class="flex flex-nowrap items-center"><img src="assets/Stars.png" alt=""><span class="text-[#FFCB45]">4.7</span></div>
+            </div>
+            <div class="flex items-center justify-between gap-4">
+              <button class="register-btn">Signup</button>
+              <button class="border p-2 px-4 rounded-lg transition-transform hover:scale-105 dark:bg-gray-800 bg-[#FFFFFF] font-bold">Next</button>
+            </div>
+          </div>
+          
+          <div class="text-white px-3 text-xs pb-4">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career.</div>
+        </div>
+        <div class="md:col-span-8 col-span-12 dark:bg-gray-800 bg-white p-4 pr-10 md:rounded-e-2xl md:rounded-s-none rounded-2xl">
+          <div class="space-y-4">
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">About this course</p>
+              <p>This course covers a wide variety of IT security concepts, tools, and best practices. It introduces threats and attacks and the many ways they can show up. We’ll give you some background of encryption algorithms and how they’re used to safeguard data. Then, we’ll dive into the three As of information security: authentication, authorization, and accounting. We’ll also cover network security solutions, ranging from firewalls to Wifi encryption options. The course is rounded out by putting all these elements together into a multi-layered, in-depth security architecture, followed by recommendations on how to integrate a culture of security into your organization or team.</p>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">What you will learn</p>
+              <div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>How various encryption algorithms and techniques work as well as their benefits and limitations</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Various authentication systems and types</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>The difference between authentication and authorization</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>How to evaluate potential risks and recommend ways to reduce risk</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>Best practices for securing a network</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-check card-element"></i>
+                  <p>How to help others to grasp security concepts and protect themselves</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">Skills you will gain</p>
+              <div class="flex gap-5 flex-wrap">
+                <span class="skill-tag">Security</span>
+                <span class="skill-tag">Wireless Security</span>
+                <span class="skill-tag">Cryptography</span>
+                <span class="skill-tag">Network Security</span>
+              </div>
+            </div>
+            
+            <div class="space-y-3"></div>
+              <p class="text-[#F44335] dark:text-[#F44335] font-bold text-lg text-opacity-50">Information</p>
+              <div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Flexible deadlines</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Shareable Certificate</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>100% online</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Beginner Level</p>
+                </div>
+                <div class="card-element-header-2">
+                  <i class="fa-solid fa-circle text-[8px] text-[#F44335]"></i>
+                  <p>Approx. 24 hours to complete</p>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Testimonial section -->
+     <div class="text-center my-10 z-10 md:block hidden"></div>
+    
+     <!-- <section class="bg-[url('/assets/brooke-cagle.png')] bg-cover bg-center bg-white shadow-md max-w-full min-h-96 rounded-xl">
+     </section> -->
+    <section class="relative my-8 ">
+      <img class="object-cover w-full h-full relative" src="assets/brooke-cagle.png" alt="">
+      <div class="absolute inset-y-10 inset-x-12 w-1/3 bg-white overflow-y-scroll rounded-xl shadow-md dark:bg-gray-800">
+        <div class="space-y-3 p-5 flex flex-col flex-grow h-full">
+          <i class="fa-solid fa-quote-left text-[30px] dark:text-[#F44335] text-[#F44335] font-bold text-lg text-opacity-50 "></i>
+          <p class="flex-grow text-xl font-semibold">I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do</p>
+          <p class="text-[#F44335] font-semibold text-sm md:text-lgtext-opacity-30">Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="container-fluid ">
+      <div class="grid grid-cols-12 space-y-6 flex-grow px-8 mb-10">
+        <div class="md:col-span-4 col-span-6">
+          <div class="flex flex-col gap-4">
+            <a href="index.html"><img class="w-40 dark:bg-gray-200 dark:rounded-full" src="assets/c4u full logo.png" alt="logo"></a>
+            <address>
+              Level39 <br>
+              One Canada Square,<br>
+              Canary Wharf, <br>
+              London,<br>
+              E14 5AB
+            </address>
+          </div>
+        </div>
+
+        <div class="md:col-span-2 col-span-6">
+          <div class="flex flex-col gap-3">
+            <a class="text-xl font-semibold" href="#">Home</a>
+            <a href="#">Collaborations</a>
+            <a href="#">Statistics</a>
+            <a href="#">How It Works</a>
+            <a href="#">Testimonials</a>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-6">
+          <div class="flex flex-col gap-3">
+            <a class="text-xl font-semibold" href="#">About Us</a>
+            <a href="#">Who We Are</a>
+            <a href="#">Mission statement </a>
+            <a href="#">Our Vision</a>
+            <a href="#">The Team</a>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-6">
+          <div class="flex flex-col gap-3">
+            <a class="text-xl font-semibold" href="#">Upskill</a>
+            <a href="#">It Support</a>
+            <a href="#">Project Managment</a>
+            <a href="#">Data Analysts</a>
+            <a href="#">Ux Design</a>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-6">
+          <div class="flex flex-col gap-3">
+            <a class="text-xl font-semibold" href="#">Contact Us</a>
+            <a href="#">Your message</a>
+            <a href="#">Email</a>
+            <a href="#">Phone number</a>
+            <a href="#">Linkedin</a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-slate-900 py-4 text-center text-white text-lg font-semibold"> Copyright &copy;<span class="text-[#F44335]">EK</span> 2024 | All Rights Reserved</div>
+    </footer>
+    
+     
+
+    <script src="script.js"></script>
+  </body>
+</html>
