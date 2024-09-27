@@ -8,7 +8,7 @@
     <title>Welcome | Time to Explore - CREATIVES for YOU</title>
   </head>
   <style>
-    
+
   </style>
   <body class="bg-[#FAFAFA] dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-500 ">
     <!-- Navbar section -->
@@ -847,6 +847,30 @@
     
      
 
-    <script src="script.js"></script>
+    <script>
+      const darkModeToggle = document.getElementById('darkModeToggle');
+
+      darkModeToggle.addEventListener('click', function () {
+        document.documentElement.classList.toggle('dark');
+        
+        
+        if (document.documentElement.classList.contains('dark')) {
+          localStorage.setItem('theme', 'dark');
+        } else {
+          localStorage.setItem('theme', 'light');
+        }
+      });
+
+      (function () {
+        const userTheme = localStorage.getItem('theme');
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (userTheme === 'dark' || (!userTheme && systemPrefersDark)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
   </body>
 </html>
