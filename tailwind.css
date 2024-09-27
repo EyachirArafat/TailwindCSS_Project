@@ -4,7 +4,7 @@
 
 @layer utilities{
   .mobile-navbar{
-    @apply hover:text-[#F44335] hover:font-semibold text-nowrap dark:text-gray-200
+    @apply hover:text-[#F44335] hover:font-semibold text-nowrap dark:text-gray-200 
   }
   .main-navbar{
     @apply hover:text-[#F44335] hover:scale-110 transition-transform text-nowrap
